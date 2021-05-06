@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+/* styling all a element*/
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* menu header*/
+.header-nav {
+  text-align: right;
+  margin-right: 8px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+.profile {
+  border-radius: 50%;
+  position: relative; /* align SVG with the font, because the baseline is not the same */
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+#svg-app {
+  position: relative; /* align SVG with the font, because the baseline is not the same */
+  top: 5px;
+  left: 5px;
+}
+#svg-border {
+  position: relative; /* align SVG with the font, because the baseline is not the same */
+  top: 15px;
+  left: -41px;
+  z-index: -1;
+}
+/* container with logo and search box  */
+.form-container {
+  text-align: center;
+  margin-top: 22vh;
+  margin-bottom: 20vh;
+}
+.form-container img {
+  margin-bottom: 20px;
+}
+.search-box {
+  /* styling the search box with all elements*/
+  display: inline-block;
+  padding: 8px;
+  border-radius: 25px;
+  border: 0.5px solid #dadce0;
+  max-width: 487px;
+  margin: 12px;
+  width: 80vw;
+}
+.search-box:hover {
+  border: 1px solid #dadce0;
+  /* reference sintax box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;*/
+  box-shadow: 1px 1px 5px 0.1px #dadce0;
+}
+
+#search-svg {
+  margin-right: 10px;
+  position: relative; /* align SVG with the font, because the baseline is not the same */
+  top: 5px;
+  left: 5px;
+}
+#search-input {
+  width: 80%;
+  padding: 2px;
+  font-size: 16px;
+  border: none;
+}
+
+#search-audio {
+  margin-left: 18px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.search-button {
+  padding: 10px;
+  background: #f8f9fa;
+  border: none;
+  border-radius: 3px;
+  margin: 11px 4px;
+  color: #313133;
+  font-size: 15px;
+}
+.search-button:hover {
+  border: 1px solid #dfdfe5;
+  padding: 9px; /* changing padding size to create a more soft effect on the hover with the border*/
+}
+.language {
+  padding: 10px;
+  font-size: 14px;
+}
+.language a {
+  color: #1a0dab;
+  padding: 2px;
+}
+.language a:hover {
+  text-decoration: underline;
+}
+
+.footer-country {
+  padding: 10px;
+  background: #f8f8ff;
+  color: rgba(0, 0, 0, 0.54);
+  border-bottom: 1px solid #dfdfe5;
+  font-size: 15px;
+}
+#footer-nav {
+  padding: 10px;
+  background: #f8f8ff;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+}
+.footer-links {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
